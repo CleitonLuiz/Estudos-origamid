@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+h1, p {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+p, span {
+    font-size: 20px;
+}
+
+.preço {
+    font-size: 30px;
+}
+
+.foto {
+    max-width: 100%;
+    grid-column: 1 / -1;
+}
+
+.descriçao {
+    grid-column: 1 / -1;
+
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.botao {
+    background-color: rgba(71, 238, 71, 0.726);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.preço {
+    background: rgba(190, 186, 186, 0.767);
+    padding: 5px;
+    border-radius: 4px;
+}
