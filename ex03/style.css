@@ -11,15 +11,13 @@ h1, p {
 h1 {
     font-size: 40px;
     line-height: 1;
+    text-align: center;
 }
 
 p, span {
     font-size: 20px;
 }
 
-.preço {
-    font-size: 30px;
-}
 
 .foto {
     max-width: 100%;
@@ -43,14 +41,16 @@ p, span {
     background-color: rgba(71, 238, 71, 0.726);
     padding: 10px 20px;
     border-radius: 4px;
-    color: blue;
+    color: rgb(255, 51, 0);
     text-decoration: none;
     font-size: 20px;
-    
+    place-self: start;
 }
 
 .preço {
     background: rgba(190, 186, 186, 0.767);
     padding: 5px;
     border-radius: 4px;
+    font-size: 30px;
+    justify-self: end;
 }
